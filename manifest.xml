@@ -1,0 +1,13 @@
+<package>
+  <description brief="MiDAS Task in C++ inference">
+  MiDAS depth network wrapped in C++ for fast inference
+  </description>
+  <author>Javier Hidalgo/jhidalgocarrio@ifi.uzh.ch</author>
+  <license></license>
+  <depend package="base/cmake" />
+  <depend package="tools/torch" />
+  <depend package="perception/frame_helper" />
+  <depend package="base/orogen/types" />
+  <depend package="drivers/orogen/aggregator" />
+  <tags> stable </tags>
+</package>
